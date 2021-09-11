@@ -1,7 +1,7 @@
 {
-  "name": "rescript-lambda-example",
+  "name": "rescript-lambda-json-example",
   "version": "1.0.0",
-  "description": "An example using rescript with AWS Lambda",
+  "description": "AWS Lambda with JSON validation for Rescript",
   "main": "build/index.js",
   "scripts": {
     "build:rescript": "rescript build",
@@ -14,7 +14,8 @@
   "keywords": [
     "aws",
     "lambda",
-    "rescript"
+    "rescript",
+    "json"
   ],
   "author": "Chris Armstrong",
   "license": "MIT",
