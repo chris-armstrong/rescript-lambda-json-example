@@ -19,3 +19,10 @@ type awsAPIGatewayResponse = {
   headers: Js.Dict.t<string>,
   statusCode: int,
 }
+
+/* Construct an APIGateway JSON-type response */
+let apiGatewayJsonResponse = (statusCode, body) => {
+  statusCode: statusCode,
+  headers: Js.Dict.fromArray([("content-type", "application/json")]),
+  body: Js.Json.stringify(body),
+}

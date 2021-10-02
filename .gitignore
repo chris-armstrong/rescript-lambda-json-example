@@ -3,3 +3,4 @@ lib/
 build/
 .merlin
 template.deploy.yaml
+.bsb.lock

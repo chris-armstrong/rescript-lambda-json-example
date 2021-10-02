@@ -1,7 +1,7 @@
 {
-  "name": "rescript-lambda-example",
+  "name": "rescript-lambda-json-example",
   "sources": { "dir": "src" },
-  "dependencies": ["reason-nodejs"],
+  "bs-dependencies": ["rescript-funicular"],
   "package-specs": {
     "module": "es6-global"
   }
